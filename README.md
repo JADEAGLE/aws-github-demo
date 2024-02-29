@@ -1,1 +1,1 @@
-# obsidian-git-sync
+# AWS GitHub Demo
