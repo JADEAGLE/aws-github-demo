@@ -16,9 +16,9 @@ jobs:
       - uses: aws-actions/setup-sam@v1
       - uses: aws-actions/configure-aws-credentials@v3
         with:
-        role-to-assume: arn:aws:iam::441574248777:role/gitlab_demo
-        aws-region: ${{ env.AWS_REGION }}
-        role-session-name: gitlab_demo
+          role-to-assume: arn:aws:iam::441574248777:role/gitlab_demo
+          aws-region: ${{ env.AWS_REGION }}
+          role-session-name: gitlab_demo
       # sam build 
       - run: sam build --use-container
 
