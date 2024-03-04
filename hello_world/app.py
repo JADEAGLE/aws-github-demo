@@ -2,7 +2,7 @@ import json
 
 def lambda_handler(event, context):
     # Define your message here
-    message = "Hello AWS MIG!"
+    message = "Tomorrow is Donut day!"
     
     # Return the message
     return {
