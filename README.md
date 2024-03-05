@@ -1,5 +1,9 @@
 # github-actions-with-aws-sam
 
+See the below diagram for a high level overview of this tutorial. 
+ 
+![High Level design](aws-mig-demo-design.drawio.png)
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - hello_world - Code for the application's Lambda function.
